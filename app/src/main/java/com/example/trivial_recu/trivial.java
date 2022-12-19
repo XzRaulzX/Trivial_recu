@@ -59,8 +59,8 @@ public class trivial extends AppCompatActivity {
             corona.setImageResource(R.drawable.interrogacion);
             puntuacionNueva=0;
         }
-        if(puntuacionNueva==0){
-
+        if(puntuacionNueva<=0){
+            puntuacionNueva=0;
         }else if(puntuacionNueva==1){
             corona.setImageResource(R.drawable.coronauno);
         }else if(puntuacionNueva==2){
